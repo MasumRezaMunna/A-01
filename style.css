@@ -89,21 +89,51 @@ nav{
     border-radius: 48px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*section one end*/
+/*Section two start*/
+.two{
+    background-color: rgb(229, 231, 255);
+    max-width: 70%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 50px;
+
+}
+.two .content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 180px;
+}
+.two h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.two .content h2{
+    font-size: 60px;
+    color: rgb(78, 71, 255) ;
+    margin-bottom: 0;
+}
+.two .content p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section two end*/
 /*main part end*/
