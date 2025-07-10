@@ -56,3 +56,54 @@ nav{
     background-image: url(Assets/Hero-bg.png);
     height: 600px;
 }
+/*header part end*/
+/*main part start*/
+/*section one start*/
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 200px;
+}
+.btn3{
+    background-color: rgb(78, 71, 255) ;
+    color: white;
+    width: 220px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.text p{
+    font-size: 25px;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.pic img{
+    border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section one end*/
+/*main part end*/
