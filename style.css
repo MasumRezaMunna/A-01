@@ -2,6 +2,7 @@
     font-family: "open-sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: rgb(245, 248, 255);
 }
 /*header part start*/
 .btn1{
@@ -156,23 +157,68 @@ nav{
 }
 /* section three end*/
 /*section four start*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.four{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 100px ;
+    margin-top: 180px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(250, 252, 250);
+    border: 1px solid rgb(233, 228, 228);
+    border-radius: 20px;
+}
+.four h1{
+    font-size: 45px;
+}
+ .four p{
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .four img{
+        border-radius: 20px;
+        margin-top: 30px;
+    }
 /*section four end*/
+/*section five start*/
+.five{
+    display: flex;
+    
+    gap: 0px;
+    padding: 130px 230px;
+}
+.five .five-title{
+    font-size: 60px;
+}
+.five-title{
+    width: 100%;
+    display: block;
+}
+.five label {
+    margin-top: 19px;
+    
+}
+.five input, .five textarea{
+    margin-bottom: 19px;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 400px;
+}
+.five textarea{
+    height: 100px;
+}
+.five .button{
+    width: 450px;
+    background-color: rgb(78, 71, 255);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+/*section five end*/
 
 
 
