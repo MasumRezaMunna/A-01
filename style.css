@@ -161,7 +161,7 @@ nav{
     max-width: 70%;
     margin: 0 auto;
     padding: 100px ;
-    margin-top: 180px;
+    margin-top: 100px;
     text-align: center;
     justify-content: center;
     background-color: rgb(250, 252, 250);
@@ -170,6 +170,7 @@ nav{
 }
 .four h1{
     font-size: 45px;
+    margin-top: 3px;
 }
  .four p{
         color: rgba(0, 0, 0, 0.5);
@@ -184,7 +185,7 @@ nav{
     display: flex;
     
     gap: 0px;
-    padding: 130px 230px;
+    padding: 120px 230px;
 }
 .five .five-title{
     font-size: 60px;
@@ -219,9 +220,34 @@ nav{
 
 
 /*section five end*/
+/*footer start*/
 
-
-
-
+footer {
+     background-color: rgb(250, 252, 250);
+    text-align: center;
+    padding: 30px 30px ;
+    
+}
+footer h1{
+    font-family: Inter;
+    color:  rgb(78, 71, 255)  ;
+    font-size: 80px;
+    font-weight: 1000;
+}
+footer p{
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 32%;
+    margin: 0 auto;
+}
+footer .menu{
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+}
+/*footer end*/
 
 /*main part end*/
