@@ -122,18 +122,60 @@ nav{
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Section two end*/
+/*section three start*/
+
+.three .review .reviewer{
+    display: flex;
+}
+.three .review{
+    background-color: rgb(250, 252, 255);
+    display: flex;
+    gap: 60px;
+     margin: 0 auto;
+    max-width: 70%;
+    justify-content: center;
+}
+.three h1{
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    font-size: 42px;
+    font-family: raleway;
+}
+.three .review .reviewer-sub p, .three .review .reviewer-sub h4{
+    color: rgba(0, 0, 0, 0.5);
+}
+.three .review .fa-star{
+    color: rgb(255, 184, 5);
+}
+.three .review .box{
+    background-color: rgb(250, 252, 250);
+    border: 1px solid rgb(233, 228, 228);
+    border-radius: 20px;
+}
+/* section three end*/
+/*section four start*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section four end*/
+
+
+
+
+
 /*main part end*/
